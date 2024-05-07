@@ -87,7 +87,18 @@
 	</head>
 
 	<body>
-
+		<!-- <button onclick="playAudio()">Play Audio</button> -->
+		<script>
+			function playAudio() {
+				var audio = document.getElementById('bgMusic');
+				audio.play();
+			}
+		</script>
+		<audio id="bgMusic" autoplay loop hidden>
+			<source src="style/Hawatari.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		
 		<!-- Fallback when JavaScript is not available -->
 		<noscript>
 			<div class="middle text--center">

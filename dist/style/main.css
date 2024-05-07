@@ -19,7 +19,9 @@
 
 /* General Style */
 body {
-
+    background-image: url('demo.png');
+    background-size: cover;
+    background-position: center;
 }
 
 /* Simple Button styles*/

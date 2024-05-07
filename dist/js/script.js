@@ -42,10 +42,10 @@ monogatari.assets ('gallery', {
 
 });
 
-// Define the music used in the game.
-monogatari.assets ('music', {
-
+monogatari.assets('music', {
+	'main': 'far-days.mp3',
 });
+
 
 // Define the voice files used in the game.
 monogatari.assets ('voices', {
@@ -69,6 +69,13 @@ monogatari.assets ('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
+	'aesop': 'aesop.png',
+	'harelaugh':'scene-1.png',
+	'race':'race-start.png',
+	'hare-fast':'hare-fast.png',
+	'hare-sleep':'hare-sleep.png',
+	'hare-awake':'hare-awake.png',
+	'tort-win':'tort-win.png'
 
 });
 
@@ -78,14 +85,37 @@ monogatari.characters ({
 	'y': {
 		name: 'Yui',
 		color: '#5bcaff'
+	},
+	'a':{
+		name: 'Aesop',
+		color: '#5bcaff'
+	},
+	't':{
+		name: 'Tortise',
+		color: '#00FF00'
+	},
+	
+	'h':{
+		name: 'Hare',
+		color: '#808080'
 	}
+	
 });
 
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-		'show scene #f7f6f6 with fadeIn',
-		'show notification Welcome',
+		function () {
+            const bgMusic = document.getElementById('bgMusic');
+            if (bgMusic) {
+                bgMusic.pause();  // Stop the music
+                bgMusic.currentTime = 0;  // Reset the music time if necessary
+            }
+            return true;  // Continue with the game's script
+        },
+		'play music main with loop fade 20 volume 10',
+		'show scene aesop',
+		//'show notification Welcome',
 		{
 			'Input': {
 				'Text': 'What is your name?',
@@ -110,13 +140,15 @@ monogatari.script ({
 				'Warning': 'You must enter a name!'
 			}
 		},
-		'y Hi {{player.name}} Welcome to Monogatari!',
+		'a Greetings, {{player.name}}!',
+		'a My name is Aesop, I am a teller of fables.',
+		'a Perhaps you have heard of me...',		
 		{
 			'Choice': {
-				'Dialog': 'y Have you already read some documentation?',
+				'Dialog': 'a Would you like to hear the fable of the tortise and the hare?',
 				'Yes': {
 					'Text': 'Yes',
-					'Do': 'jump Yes'
+					'Do': 'jump Fable'
 				},
 				'No': {
 					'Text': 'No',
@@ -126,21 +158,40 @@ monogatari.script ({
 		}
 	],
 
-	'Yes': [
-		'y Thats awesome!',
-		'y Then you are ready to go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
+	'Fable': [
+		'play music main with loop fade 20 volume 10',
+		//'end'
+		'show scene harelaugh',
+		'a Once upone a time, a Hare was making fun of a Tortoise one day for being so slow.',
+		'h Do you ever get anywhere? he asked with a mocking laugh.',
+		't Yes, replied the Tortoise, and I get there sooner than you think. I\'ll run you a race and prove it.',
+		'a The Hare was much amused at the idea of running a race with the Tortoise, but for the fun of the thing he agreed.',
+		'show scene race',
+		'a So the Fox, who had consented to act as judge, marked the distance and started the runners off.',
+		'show scene hare-fast',
+		'a The Hare was soon far out of sight, ',
+		'a And to make the Tortoise feel very deeply how ridiculous it was for him to try a race with a Hare.. ',
+		'show scene hare-sleep',
+		'a He lay down beside the course to take a nap until the Tortoise should catch up.',
+		'a The Tortoise meanwhile kept going slowly...', 
+		'a but steadily.', 
+		'a And, after a time, passed the place where the Hare was sleeping.', 
+		'a But the Hare slept on very peacefully; and when at last he did wake up...', 
+		'show scene hare-awake',
+		'a The Tortoise was near the goal!', 
+		'show scene tort-win',
+		'a The Hare now ran his swiftest, but he could not overtake the Tortoise in time.',
+		'show scene aesop',
+		'a Moral of the story?',
+		'a The race is not always to the swift.',
 		'end'
 	],
 
 	'No': [
 
-		'y You can do it now.',
-
-		'show message Help',
-
-		'y Go ahead and create an amazing Game!',
-		'y I can’t wait to see what story you’ll tell!',
+		'a Ah, well perhaps another time, then.',
+		//'show message Help',
+		'a Fare thee well, stranger!',
 		'end'
 	]
 });
