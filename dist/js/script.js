@@ -81,39 +81,49 @@ monogatari.characters ({
 	}
 });
 
-monogatari.script ({
+monogatari.script (
+	{
 	// The game starts here.
 	'Start': [
-		'show scene #f7f6f6 with fadeIn',
+//		'show scene #f7f6f6 with fadeIn',
 		'show notification Welcome',
-		{
-			'Input': {
-				'Text': 'What is your name?',
-				'Validation': function (input) {
-					return input.trim ().length > 0;
-				},
-				'Save': function (input) {
-					this.storage ({
-						player: {
-							name: input
-						}
-					});
-					return true;
-				},
-				'Revert': function () {
-					this.storage ({
-						player: {
-							name: ''
-						}
-					});
-				},
-				'Warning': 'You must enter a name!'
-			}
+		{ //
+//			'Input': {
+//				'Text': 'What is your name?',
+//				'Validation': function (input) {
+//					return input.trim ().length > 0;
+//				},
+//				'Save': function (input) {
+//					this.storage ({
+//						player: {
+//							name: input
+//						}
+//					});
+//					return true;
+//				},
+//				'Revert': function () {
+//					this.storage ({
+//						player: {
+//							name: ''
+//						}
+//					});
+//				},
+//				'Warning': 'You must enter a name!'
+//			}
 		},
-		'y Hi {{player.name}} Welcome to Monogatari!',
+//		'y Hi {{player.name}} Welcome to Monogatari!',
+		'y Hi name Welcome to Monogatari!',
 		{
 			'Choice': {
 				'Dialog': 'y Have you already read some documentation?',
+				'Go to my scene': {
+					'Text': 'Going to my scene',
+                    'Do': 'jump Go'
+				},
+				'Maybe': {
+					'Text': 'not sure....',
+					'Do': 'jump Maybe'
+				},
 				'Yes': {
 					'Text': 'Yes',
 					'Do': 'jump Yes'
@@ -125,14 +135,20 @@ monogatari.script ({
 			}
 		}
 	],
-
+	'Go': [
+		'well, it looks like snoop doggy dog needs to get a jobby job',
+		'jump end'
+	],
+	'Maybe': [
+		'well, it looks like snoop doggy dog needs to get a jobby job',
+		'jump Choice'
+	],
 	'Yes': [
 		'y Thats awesome!',
 		'y Then you are ready to go ahead and create an amazing Game!',
 		'y I can’t wait to see what story you’ll tell!',
 		'end'
 	],
-
 	'No': [
 
 		'y You can do it now.',
