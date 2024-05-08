@@ -16,6 +16,17 @@
  * General Styling
  * ===========================
 **/
+/* .scrolling {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Adjust based on your layout */
+    /* animation: scrollUp 10s linear infinite;
+}
+
+@keyframes scrollUp {
+    50% { top: 100vh; }
+    100% { top: -100%; } /* Adjust this value based on the amount of text */
+/* } */ */ */
 
 /* General Style */
 body {
