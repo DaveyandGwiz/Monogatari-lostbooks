@@ -169,88 +169,32 @@ monogatari.characters ({
 monogatari.script (
 	{
 
-	// The game starts here.
-	// 'Start': [
-	// 	'show scene #000000 with fadeIn',
-	// 	'centered This is where your story begins...',
-	// 	'jump autoScrollText'
-	// ],
 	'Start': [
-        'show scene #000000 with fadeIn',
-        'centered Welcome to the game!',
+//        'show scene #000000 with fadeIn',
+		'show scene #f7f6f6 with fadeIn',
 		'centered <span class="scrolling"> {{wily.longText}}',
-        // {'Function': {
-        //     'Apply': function () {
-        //         window.alert("sometext")
-        //     },
-        // 	}
-		// },
-        'centered  Your score has been updated!',
-		'centered <span class="scrolling"> I am moving upwards....',
-        'jump autoScrollText'
-    ],
-	'autoScrollText': [
-		//'centered {class="scrolling"}This is the long text that will automatically scroll up the screen. Make sure this text is long enough to demonstrate the scrolling effect effectively.',
-		'centered This is the long text that will automatically scroll up the screen. Make sure this text is long enough to demonstrate the scrolling effect effectively.',
-		'jump Start'
+		{
+			'Choice': {
+				'Dialog': 'Select Act',
+				'Act 3': {
+					'Text': 'Act 3',
+                    'Do': 'jump Act3'
+				},
+				'Maybe': {
+					'Text': 'not sure....',
+					'Do': 'jump Maybe'
+				},
+				'Yes': {
+					'Text': 'Yes',
+					'Do': 'jump Yes'
+				},
+				'No': {
+					'Text': 'No',
+					'Do': 'jump No'
+				}
+			}
+		}
 	],
-	// {	
-	// 	'Function': {
-	// 		'Apply': window.alert("sometext")}
-	// },
-
-	
-// 	'Start': [
-// //		'show scene #f7f6f6 with fadeIn',
-// 		'show notification Welcome',
-// 		{ //
-// //			'Input': {
-// //				'Text': 'What is your name?',
-// //				'Validation': function (input) {
-// //					return input.trim ().length > 0;
-// //				},
-// //				'Save': function (input) {
-// //					this.storage ({
-// //						player: {
-// //							name: input
-// //						}
-// //					});
-// //					return true;
-// //				},
-// //				'Revert': function () {
-// //					this.storage ({
-// //						player: {
-// //							name: ''
-// //						}
-// //					});
-// //				},
-// //				'Warning': 'You must enter a name!'
-// //			}
-// 		},
-// //		'y Hi {{player.name}} Welcome to Monogatari!',
-// 		'y Hi name Welcome to Monogatari!',
-// 		{
-// 			'Choice': {
-// 				'Dialog': 'y Have you already read some documentation?',
-// 				'Go to my scene': {
-// 					'Text': 'Going to my scene',
-//                     'Do': 'jump Go'
-// 				},
-// 				'Maybe': {
-// 					'Text': 'not sure....',
-// 					'Do': 'jump Maybe'
-// 				},
-// 				'Yes': {
-// 					'Text': 'Yes',
-// 					'Do': 'jump Yes'
-// 				},
-// 				'No': {
-// 					'Text': 'No',
-// 					'Do': 'jump No'
-// 				}
-// 			}
-// 		}
-// 	],
 	'Go': [
 		'well, it looks like snoop doggy dog needs to get a jobby job',
 		'jump end'
