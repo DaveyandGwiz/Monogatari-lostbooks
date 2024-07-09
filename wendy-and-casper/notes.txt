@@ -44,6 +44,223 @@ I spend money at restaurants. at bars at coffee shops to placate this.
 
 
 
+- 7/6
+
+I feel a little unsure how the story will progress from this point.
+I say that, because I dont know how much longer wendy and casper will be together. I had planned for wnedy 
+to stay at least a year with casper.
+I will of course skip time at some point.
+
+
+When do I want to skip time though?
+
+I know I want David to confront wendy about her choice to stay.
+I suppose I could skip time now or I could do it later.
+What happens next?
+
+
+
+- What happens next?
+// When Wendy meets casper next, she is unsure of the nature of their relationship.
+// Wendy and Casper become a couple
+// Casper admits he doesnt want to pass on
+// David tells Wendy to leave
+// Wendy and caspers relationship deepens and it quickly becomes problematic.
+// A boy enters the school who is interested in wendy.
+// Casper becomes jealous 
+// Casper accuses wendy of wanting him to leave
+// Wendy admits that she hates staying in Hexington, but she stays for Casper
+// Casper feel sorry, for wendy, and his empathy is enough to set his soul free.
+// Epilogue
+
+-----
+
+- 7/7
+
+I feel my characterization of wendy and caspers relationship has been too positve.
+Maybe that's fine for a time, but we need to reach a point where all they do is focus on trauma when they are togert
+Casper is very needy and draining for wendy
+and wendy is always cartering to his needs.
+Wendy is unhappy about her living situations and uncertain about the future.
+Mayeb it becomes aparent that all casper does is complain and worry about himself.
+
+Right now, Casper is St. Jude, but he needs to grow.
+
+--
+
+
+Dear Mike,
+
+
+Mike, you are my friend.
+And you are a dear friend to me.
+I remember that day long ago when me and my brother Jonathan thought of our own imaginary friend. 
+We'd heard about it on TV, of kids having an imaginary friend. A friend who wasnt real, but invisible.
+
+I felt the urgent need to have an imaginary friend of my own, it seemed like something all kids had.
+I had even asked my mother, and she said she also had an imaginary friend when she was little.
+
+I wondered if she still had an imaginary friend, and if she talked to her sometimes.
+My mother told me the name of her imaginary friend. I remember gettig the sense that my mother
+no longer talked to her imaginary friend, or that her imaginary friend was no longer impoirtant to her.
+
+I wanted my imaginary friend to be with me for a life time.
+
+I wanted an imaginary friend that would last a lifetime.
+
+I rmeber long ago sitting on the porch of our backyard me, the grey color of the worn unstaned boards underneath our feet.
+
+The shreds of the backyard devoid of all vegetaion because me and my brother would take spoon from the kitchen and digs holes.
+
+We thought of a name for our imaginary friend. I dont remember if it was me or Jonathan's idea
+to name our friend mike.
+
+It sounded like such a cool name. I thought that had to be it.
+I remembered that my youngest brother pauls middle name was micheal. Paul was just a toddler at the time.
+I figured that Mike was a different name. Mike, not mike short for mikel, just mike.
+
+Most kids imagined their imaginary friend a certain way, maybe their imaginary friend looked like them, or looked totaly different.
+Some people had imaginary friends that were all sorts of fanciful creatures: a talking hourse or a big scary moster.
+
+I imagined you were a boy like me, about my age, but I never thought of you looking any particular way.
+To me you were invisible, because you were invisible. And you wou werent an imaginary friend I woudl pretend was real.
+You were imaginary you were invisble, those were the things that made you unique, those were the things that made you you.
+And that's what made you special to me.
+
+Though, I did think that, if you did have hair and that hair did have a color, then it would be blonde just like mine.
+
+That day, in the backyard, me and my brother spent the day getting to know our imaginary friend and spending our time you you.
+
+The next day I remember going out to play with my brothers in the backyard. We had played for a few hours before I remembered about you.
+
+I mentioned you to my brother Jon. I wanted to remind him and remind myself about you.
+I didnt want to forget you. I wanted you to spend everyday from now on.
+
+We remembered you and tried to include you in our games now and then, then forgot about you. Like an old toy.
+
+As time went by, I would recall you now and then. That when I was younger I had an imaginary friend named mike.
+
+I would look back on the memory foundly. Because whenever I remembeed, I realize I had an not just an imaginary friend.
+But an old imaginary friend.
+An old friend.
+Whenever I wanted.
+
+Dave,
+
+---
+
+Dear Mike,
+
+Today was a hard day for me. I hope it be alright if I open up about it.
+
+I hate to be such a drag all the time, coming to you only when I have problems. I'm quite sick of it actually.
+
+I want to be more positive, more uplifting, a source of inspiration.
+
+Idont want to just complain to you mike. But I would like to share what happened and to give you my plans to the future.
+I'd like to hear your thoughts as well, or really anything you have to say.
+
+Today, I woke up around 6, but I decded to sleep a little as I was rather tired.
+I had stayed up past midnight the night before. I did not mean to, but I had a difficult time sleeping.
+I wanted more sleep but I checked my calendar and saw that I had meetings around 8am, so I went ahead and started getting ready around 7:30.
+
+This morning we had a meeting to discuss the division of labor between the different teams: sre, dev and tse.
+I was actually looking forward to this meeting as I had been unclear on how to divide responsibilities between SRE like me and the
+TSE team which is similar to an Ops team.
+
+The meeting however was rather unpleasant. Unpleasant is actually and understatement. The moment my mangaer Ron got on call 
+the tone of his voice was off the bat aggressive.
+
+Making statements like stop and you dont get it to the dev team.
+
+The dev team's complaint had been that they kept being asked to be on call during the production launch of applications.
+They said that that needed to stop which I agrred with.
+
+Magaers asked why it was that the dev team kept being asked to help with the prod launch of applications and insisted that
+SRE team should be capabple of troubleshooting any incidents that arise.
+
+One of the developers Maya then said "I dont want to throw David under the buss but.." SHe then proceeded to throw me under the buss.
+Her complaintents about me was that I needed too much hand holding and that I had made an error when creating one of the alarms.
+
+The truth is my situation was rather difficult, I had been pulled onto the team as the typical SRE team memeber proceeded to go on 
+a two month vacation. There was a lot I didnt know about the applications I was supposed to be supporting 
+and a lot of questions I had.
+I realize that working with me and answering my questions were time consuming for the developers, but I was knew and I was filling
+in for the senior SRE during the launch of a mjor application.
+
+There was also truth that I made an error when creating an alarm but I only gave it the wrong title when the email went out.
+The email contained the logs that triggered the error and the error it brought to our attention was very real.
+
+In fact it was an alarm the developer had silced as we were seeing errors in production and she wasnt sure how to resolve them at the moment.
+
+I had a difficult time defending myself, as it was so early and I simply wasnt prepared to be subject to accusations.
+I really believe that the accusations made against me were a distraction as they had had nothing to do with the fact they were being called 
+during prod launches.
+
+The dev team was being called during prod launches because we kept having erros during deployment, and in the interest
+of launching or application as soon as possible as we had toight deadlines we were doing a lot of troubleshooting during 
+the calls.
+
+The first launch of the application didnt work and the last time we had a launch with the dev team their code didnt even work so me and 
+the ops team stayed on call while we waited for the devlopers to update their code and push it through testing.
+
+I was deeply hurt by the whole experience. I felt betrayed by Maya whom I had stuck my neck out before.
+
+More than anything I felt hurt to be blamed. I have been blamed and accused a lot in my life. Being mocked for being different or my sexuality.
+I've been made to feel I was bad just for being my authentic self.
+
+It hurts very deeply.
+
+It makes me think multiple things.
+
+For one, the truth is I really do not like my current job or my coworkers. But I stay because I have bills to pay.
+
+I never wanted to be a software developer. I only went to college to study computer science to prove to people I was good enough, or smart enough,
+or could get a high pying job because I was afraid of being alone.
+
+I wish. I wish I had loved and accepted myself long ago.
+
+I wish I didnt care so much for the opinions of people who dont even care about me.
+
+I wish I could feel lovable and valuable just following my own interests and living my own values, regadrdless of whether or not 
+I make a lot of money or am doing something sociaty sees as difficult.
+
+It hurts to think that while I'm here wallowing in these emotions evryone else is just focused on their lives: doing what's best for their career,
+spending time with people they love, thinking how they can get the edge on people who could accuse them.
+
+Instead of doing that or trying to pursue my own passions, I'm sitting here feeling hurt because people hurt me when they blamed me for problems.
+
+Mike,  I want to be more focused on myself. I want to be happy. I want to live a life I can be proud of.
+I dont feel proud of my life right now. I feel I am an underperforming SRE who lacks the motivation to do better because of how unsatisfied
+with his career he is.
+
+I dont want to live this way.
+
+I want to poursue my goals, for me.
+
+I want to write books, and make games, and pursue my education.
+
+But first I have responsibilities. I have to pay the bills, take care of my self, and my animals who depend on me.
+
+I would really like some recommendations on how I can best deal with my current responsibilites and obligations at work and caring for myself
+and my pets, while eventuially moving towards a life style I can be proud of while pursuing my goals.
+
+Had a goal this year to write a bunch of first drafts of my novels while gradually upskilling at work. I wonder if I should
+switch my goals to focus on my career and finace so that when that is under control I can hoepfully devotemore energy to my creative pursuits.
+
+Love to hear your thoughst, Mike. Do you have anything for me? My imaginary friend? Please talk to me.. whenvever.
+
+Thank you for listening,
+
+Dave
+
+
+
+
+
+
+
+
 
 
 
